@@ -11,7 +11,7 @@ bisal_channel = "https://telegram.me/bt_files"
 bisal_grp = "https://telegram.me/bt_discussions"
 
 class Var(object):
-    MULTI_CLIENT = False
+    MULTI_CLIENT = True
     API_ID = int(getenv('API_ID', ''))
     API_HASH = str(getenv('API_HASH', ''))
     BOT_TOKEN = str(getenv('BOT_TOKEN' , ''))
